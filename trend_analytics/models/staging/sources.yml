@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: TREND_DB
+    schema: RAW
+    tables:
+      - name: raw_news_articles
+      - name: raw_google_trends
+      - name: raw_hackernews
