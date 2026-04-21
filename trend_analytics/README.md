@@ -32,5 +32,15 @@ Python Scripts → Snowflake (RAW) → dbt Models → Power BI Dashboard
 5. Run dbt: dbt run
 6. Open Power BI dashboard
 
+## Setup Instructions
+
+1. Clone the repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate it: `venv\Scripts\activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Add your API keys to a `.env` file
+6. Run data collection: `python collect_news.py`
+7. Load to Snowflake: `python load_to_snowflake.py`
+
 ##  Author
 Jeevanandh Mathivanan
